@@ -1,5 +1,5 @@
 SELECT
-   o.name AS OfficerName,
+    o.name AS OfficerName,
     i.name AS IntermediaryName,
     aio.assoc_type,
     aio.start_date,
@@ -10,5 +10,4 @@ FROM
     JOIN intermediary i ON aio.inter = i.id;
 
 
-
---   Trouver tous les officiers et intermédiaires qui ont une association
+--   Lister les entités et leurs sources
