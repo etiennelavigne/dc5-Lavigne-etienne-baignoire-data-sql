@@ -10,4 +10,4 @@ FROM
     JOIN intermediary i ON aio.inter = i.id;
 
 
---   Lister les entités et leurs sources
+--   Trouver tous les officiers et intermédiaires qui ont une association :
